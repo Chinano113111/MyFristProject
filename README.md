@@ -46,12 +46,8 @@ Filter tasks / 筛选任务 Click the tabs at the top: "All" (all tasks), "Activ
 四、Contribution Guide / 贡献指南
  
 If you want to improve this project, feel free to follow these steps: / 若你想参与项目改进，可按照以下步骤操作：
- 
-1. Fork this repo to your GitHub account / Fork本仓库到你的GitHub账号
-2. Create a new branch (e.g.,  feature/add-dark-mode ,  fix/reminder-bug ) / 创建新分支（如  feature/add-dark-mode  新增暗黑模式， fix/reminder-bug  修复提醒bug）
-3. Make your changes (e.g., add new features, optimize UI, fix bugs) / 进行开发修改（如新增功能、优化界面、修复bug）
-4. Commit your code and push it to your forked repo / 提交代码并推送到你的Fork仓库
-5. Create a Pull Request (PR) to the main branch of this repo, and describe your changes briefly / 向本仓库的main分支提交Pull Request（PR），并简要描述修改内容
+1. Make your changes (e.g., add new features, optimize UI, fix bugs) / 进行开发修改（如新增功能、优化界面、修复bug）
+2. Commit your code and push it to your forked repo / 提交代码并推送到你的Fork仓库. Create a Pull Request (PR) to the main branch of this repo, and describe your changes briefly / 向本仓库的main分支提交Pull Request（PR），并简要描述修改内容
  
 五、License / 许可证
  
