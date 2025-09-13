@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow Lite | 轻量任务流</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入图标库（用于复选框、删除按钮） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 标题区域 -->
+        <header>
+            <h1>TaskFlow Lite <span class="subtitle">轻量任务流</span></h1>
+            <p class="tagline">极简本地任务管理，无需注册</p>
+        </header>
+
+        <!-- 任务添加区域 -->
+        <div class="task-add">
+            <input type="text" id="taskInput" placeholder="输入任务内容（如：买牛奶）...">
+            <input type="date" id="deadlineInput">
+            <button id="addBtn"><<i class="bi bi-plus-circle"></</i> 添加任务</button>
+        </div>
+
+        <!-- 任务筛选标签 -->
+        <div class="filter-tabs">
+            <button class="tab active" data-filter="all">全部</button>
+            <button class="tab" data-filter="active">进行中</button>
+            <button class="tab" data-filter="completed">已完成</button>
+        </div>
+
+        <!-- 任务列表区域 -->
+        <ul id="taskList" class="task-list">
+            <!-- JavaScript 会动态生成任务项 -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
