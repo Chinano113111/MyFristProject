@@ -26,9 +26,6 @@ A minimalist, offline-first to-do list tool with drag-and-drop sorting and deadl
  
 1. Clone the repo to your local device / 克隆仓库到本地
 bash
-  
-git clone https://github.com/your-username/taskflow-lite.git
- 
 2. Open the  index.html  file directly in your browser / 在浏览器中直接打开  index.html  文件
 - No build tools, no command line operations—use it immediately after opening / 无需构建工具，无需命令行操作，打开即可使用
 3. (Optional) Add the page to your browser bookmarks for quick access later / （可选）将页面添加到浏览器书签，方便后续快速打开
